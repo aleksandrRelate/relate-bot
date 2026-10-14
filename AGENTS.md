@@ -5,4 +5,4 @@
 - Не коммить секреты, `.env*`, клиентские ассеты. Бинарники — в Supabase Storage.
 - Права на данные — только через RLS; никогда не обходи их service key в клиентском коде.
 - Изменения схемы — новым файлом в `supabase/migrations`, с описанием отката в PR.
-- Перед PR: `npm run lint && npm run build`.
+- Перед PR (после создания приложения): `npm run lint && npm run build`.
